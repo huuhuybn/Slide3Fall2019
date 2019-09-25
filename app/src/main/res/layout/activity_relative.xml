@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_margin="16dp"
+        android:id="@+id/nutBa"
+        android:text="Nut Ba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:layout_below="@+id/nutBa"
+        android:id="@+id/nutMot"
+        android:text="Nut Mot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:text="Nut Hai"
+        android:layout_toRightOf="@+id/nutMot"
+        android:layout_below="@+id/nutMot"
+        android:id="@+id/nutHai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_toRightOf="@+id/nutBa"
+        android:id="@+id/nutBon"
+        android:text="Nut Bon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>
